@@ -1,0 +1,9 @@
+{% block content %}
+<h1> List of Users details</h1>
+{% for user in obj %}
+<h1>{{ user.id }}</h1>
+<h>Name - {{ user.name }}</h> <br>
+<h> Email Id - {{ user.email }}</h><br>
+<h>Mobile No - {{ user.m_no }}</h><br>
+{% endfor %}
+{% endblock  %}
