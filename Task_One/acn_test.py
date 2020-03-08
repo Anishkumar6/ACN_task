@@ -1,20 +1,10 @@
-import time
-import pandas as pd
-from argparse import ArgumentParser
-import argparse
+
 from selenium import webdriver as wd
 import selenium
-import numpy as np
-#from schema import SCHEMA
-import json
-import urllib
-import re
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-import os
 from selenium.webdriver.common.action_chains import ActionChains
-import subprocess
 
 
 
